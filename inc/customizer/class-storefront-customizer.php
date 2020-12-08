@@ -930,9 +930,9 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 					color: ' . $storefront_theme_mods['text_color'] . ';
 				}
 
-				.wp-block-table:not( .has-background ):not( .is-style-stripes ) tbody tr:nth-child(2n) td {
-					background-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['background_color'], -2 ) . ';
-				}
+				// .wp-block-table:not( .has-background ):not( .is-style-stripes ) tbody tr:nth-child(2n) td {
+				// 	background-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['background_color'], -2 ) . ';
+				// }
 
 				.wp-block-cover .wp-block-cover__inner-container h1,
 				.wp-block-cover .wp-block-cover__inner-container h2,
