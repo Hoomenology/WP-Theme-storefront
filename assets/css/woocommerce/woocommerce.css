@@ -681,68 +681,7 @@ a.reset_variations {
 /**
  * Cart
  */
-table.cart {
-  margin-bottom: 3.706325903em; }
-  table.cart .product-quantity .plus,
-  table.cart .product-quantity .minus {
-    display: none; }
-  table.cart .product-thumbnail img {
-    margin: 0 auto;
-    max-width: 3.706325903em;
-    height: auto; }
-  table.cart .product-thumbnail::before {
-    display: none; }
-  table.cart tr:first-child td.product-remove {
-    border-top-width: 0; }
-  table.cart td.product-remove {
-    padding: 0;
-    border-top: 1.618em solid;
-    position: relative; }
-    table.cart td.product-remove a.remove {
-      position: absolute;
-      font-size: 1.41575em;
-      top: -0.6180469716em;
-      right: -0.6180469716em; }
-  table.cart td.product-quantity .qty {
-    padding: 0.326em;
-    width: 3.706325903em; }
-  table.cart td.product-name {
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    -ms-word-break: break-all; }
-  table.cart td,
-  table.cart th {
-    padding: 0.875em 0.875em 0; }
-  table.cart td.product-subtotal {
-    padding-bottom: 0.875em; }
-  table.cart td.actions {
-    border-top: 1em solid;
-    background-color: transparent;
-    padding: 0; }
-    table.cart td.actions label {
-      display: none; }
-    table.cart td.actions .coupon {
-      padding-bottom: 1em;
-      margin-bottom: 1em;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
-    table.cart td.actions input {
-      display: block;
-      width: 100%;
-      margin: 0.5407911001em 0; }
 
-.wc-proceed-to-checkout {
-  margin-bottom: 1.618em; }
-  .wc-proceed-to-checkout::before, .wc-proceed-to-checkout::after {
-    content: '';
-    display: table; }
-  .wc-proceed-to-checkout::after {
-    clear: both; }
-  .wc-proceed-to-checkout .button {
-    display: block;
-    text-align: center;
-    margin-bottom: 1em; }
-    .wc-proceed-to-checkout .button.checkout-button {
-      font-size: 1.41575em; }
 
 .woocommerce-shipping-calculator {
   margin: 0; }
@@ -1408,8 +1347,7 @@ dl.variation {
   /**
 	 * Responsive tables
 	 */
-  table.shop_table_responsive thead {
-    display: table-header-group; }
+
   table.shop_table_responsive tbody th {
     display: table-cell; }
   table.shop_table_responsive tr td {
@@ -1584,8 +1522,7 @@ dl.variation {
   .storefront-full-width-content.woocommerce-cart .entry-header,
   .storefront-full-width-content.woocommerce-checkout .entry-header,
   .storefront-full-width-content.woocommerce-account .entry-header{
-    text-align: center;
-    padding: 0 0 5.9968353111em; }
+    text-align: center;}
     .storefront-full-width-content.woocommerce-cart .entry-header h1:last-child,
     .storefront-full-width-content.woocommerce-checkout .entry-header h1:last-child,
     .storefront-full-width-content.woocommerce-account .entry-header h1:last-child,{
@@ -1660,7 +1597,6 @@ dl.variation {
     table.cart td.actions .coupon {
       padding-bottom: 0;
       margin-bottom: 0;
-      border-bottom: none;
       display: inline-block;
       float: left; }
     table.cart td.actions input {
