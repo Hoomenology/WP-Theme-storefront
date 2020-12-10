@@ -183,8 +183,7 @@ if ( ! class_exists( 'Storefront_WooCommerce_Customizer' ) ) :
 				background-color: ' . $storefront_theme_mods['background_color'] . ';
 			}
 
-			#payment .payment_methods > li .payment_box,
-			#payment .place-order {
+			#payment .payment_methods > li .payment_box {
 				background-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['background_color'], -5 ) . ';
 			}
 

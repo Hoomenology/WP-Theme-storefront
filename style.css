@@ -780,14 +780,14 @@ body {
 table {
   border-spacing: 0;
   width: 100%;
-  margin: 0 0 1.41575em;
+  margin: 0.25rem 0;
   border-collapse: separate; }
   table caption {
     padding: 1em 0;
     font-weight: 600; }
   table td,
   table th {
-    padding: 1em 1.41575em;
+    padding: 0.25em 1.41575em;
     text-align: left;
     vertical-align: top; }
     table td p:last-child,
@@ -795,9 +795,6 @@ table {
       margin-bottom: 0; }
   table th {
     font-weight: 600; }
-  table thead th {
-    padding: 1.41575em;
-    vertical-align: middle; }
   table tbody h2 {
     font-size: 1em;
     letter-spacing: normal;

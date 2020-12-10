@@ -833,7 +833,6 @@ form.checkout {
   margin-top: 2.617924em; }
   #payment .place-order .button {
     font-size: 1.41575em;
-    width: 100%;
     white-space: pre-wrap; }
 
 table.woocommerce-checkout-review-order-table .product-name {
@@ -1753,8 +1752,7 @@ dl.variation {
     width: 47.8260869565%;
     float: right;
     margin-right: 0; }
-  #order_review .shop_table {
-    margin-bottom: 2.617924em; }
+
   /**
 	 * My Account
 	 */
