@@ -251,13 +251,13 @@ if ( ! class_exists( 'Storefront_WooCommerce_Customizer' ) ) :
 				color: ' . $storefront_theme_mods['button_text_color'] . ';
 			}
 
-			.added_to_cart.alt, .added_to_cart, .widget a.button.checkout {
+			.added_to_cart.alt, .added_to_cart {
 				background-color: ' . $storefront_theme_mods['button_alt_background_color'] . ';
 				border-color: ' . $storefront_theme_mods['button_alt_background_color'] . ';
 				color: ' . $storefront_theme_mods['button_alt_text_color'] . ';
 			}
 
-			.added_to_cart.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+			.added_to_cart.alt:hover, .added_to_cart:hover {
 				background-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['button_alt_background_color'], $darken_factor ) . ';
 				border-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['button_alt_background_color'], $darken_factor ) . ';
 				color: ' . $storefront_theme_mods['button_alt_text_color'] . ';
