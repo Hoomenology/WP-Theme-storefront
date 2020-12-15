@@ -494,9 +494,6 @@ a.reset_variations {
 /**
  * Breadcrumbs
  */
-.storefront-breadcrumb {
-  margin: 0 0 1.618em;
-  padding: 1em 0; }
 
 .woocommerce-breadcrumb {
   font-size: 0.875em; }
@@ -1275,8 +1272,7 @@ dl.variation {
 	 * Breadcrumbs
 	 */
   .storefront-breadcrumb {
-    padding: 1.41575em 0;
-    margin: 0 0 3.706325903em; }
+    padding: 1.41575em 0; }
   /**
 	 * Responsive tables
 	 */
