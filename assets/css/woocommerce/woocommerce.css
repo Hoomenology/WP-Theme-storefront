@@ -800,11 +800,9 @@ label.inline {
   margin-left: 1em; }
 
 .hentry .entry-content .woocommerce-MyAccount-navigation ul {
-  margin-left: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+  margin-left: 0;}
   .hentry .entry-content .woocommerce-MyAccount-navigation ul li {
     list-style: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     position: relative; }
     .hentry .entry-content .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link a {
       text-decoration: none;
