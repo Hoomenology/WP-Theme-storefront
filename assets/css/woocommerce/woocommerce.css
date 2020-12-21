@@ -1769,27 +1769,13 @@ dl.variation {
     width: 47.8260869565%;
     float: right;
     margin-right: 0; }
-  .storefront-full-width-content .woocommerce-tabs ul.tabs {
-    width: 30.4347826087%;
-    float: left;
-    margin-right: 4.347826087%; }
-  .storefront-full-width-content .woocommerce-tabs .panel {
-    width: 65.2173913043%;
-    float: right;
-    margin-right: 0;
-    margin-bottom: 3.706325903em; }
+
   .woocommerce-tabs {
     padding-top: 2.617924em;
     padding-bottom: 2.617924em; }
-    .woocommerce-tabs ul.tabs {
-      width: 29.4117647059%;
-      float: left;
-      margin-right: 5.8823529412%; }
       .woocommerce-tabs ul.tabs li.active::after {
         right: 1em; }
     .woocommerce-tabs .panel {
-      width: 64.7058823529%;
-      float: right;
       margin-right: 0;
       margin-top: 0; }
   /**
