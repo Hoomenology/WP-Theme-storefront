@@ -372,12 +372,12 @@ if ( ! function_exists( 'storefront_featured_products' ) ) {
 	function storefront_featured_products( $args ) {
 		$args = apply_filters(
 			'storefront_featured_products_args', array(
-				'limit'      => 4,
-				'columns'    => 4,
-				'orderby'    => 'date',
-				'order'      => 'desc',
-				'visibility' => 'featured',
-				'title'      => __( 'We Recommend', 'storefront' ),
+				'limit'      => $args['limit'] ?? 4,
+				'columns'    => $args['columns'] ?? 4,
+				'orderby'    => $args['orderby'] ?? 'date',
+				'order'      => $args['order'] ?? 'desc',
+				'visibility' => $args['visibility'] ?? 'featured',
+				'title'      => $args['title'] ?? __( 'We Recommend', 'storefront' ),
 			)
 		);
 
@@ -478,12 +478,12 @@ if ( ! function_exists( 'storefront_on_sale_products' ) ) {
 	function storefront_on_sale_products( $args ) {
 		$args = apply_filters(
 			'storefront_on_sale_products_args', array(
-				'limit'   => 4,
-				'columns' => 4,
-				'orderby' => 'date',
-				'order'   => 'desc',
-				'on_sale' => 'true',
-				'title'   => __( 'On Sale', 'storefront' ),
+				'limit'   => $args['limit'] ?? 4,
+				'columns' => $args['columns'] ?? 4,
+				'orderby' => $args['orderby'] ?? 'date',
+				'order'   => $args['order'] ?? 'desc',
+				'on_sale' => $args['on_sale'] ?? 'true',
+				'title'   => $args['title'] ?? __( 'On Sale', 'storefront' ),
 			)
 		);
 
