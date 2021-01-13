@@ -909,7 +909,6 @@ ul.order_details {
   width: 100%; }
 
 .required {
-  border-bottom: 0 !important;
   color: #e2401c; }
 
 .password-input {
